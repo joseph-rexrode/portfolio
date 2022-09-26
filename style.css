@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #DCDCDD;
+}
+
+#homeSection {
+    background-color: #46494C;
+}
+
+#tech {
+    background-color: #1985A1;
+}
+
+#projects {
+    background-color: #4C5C68;
+}
+
+#navbar-scrollspy {
+    background-color: #46494C;
+}
+
+.myPills .nav-item a.active{
+    background-color: #B75D69;
+}
+
+#whiteText {
+    color: #DCDCDD;
+}
