@@ -5,26 +5,41 @@
     color: #DCDCDD;
 }
 
-#homeSection {
-    background-color: #46494C;
-}
-
-#tech {
-    background-color: #1985A1;
-}
-
+#homeSection,
+#tech,
 #projects {
-    background-color: #4C5C68;
+    background-color: #46494C;
 }
 
 #navbar-scrollspy {
     background-color: #46494C;
 }
 
-.myPills .nav-item a.active{
+#homeHeader {
+    width: 20rem;
+    height: 20rem;
+    transition: background-color 1s;
+}
+
+#homeHeader:hover {
     background-color: #B75D69;
+}
+
+.myPills .nav-item a.active{
+    background-color: transparent;
+    border: 1px solid #DCDCDD;
 }
 
 #whiteText {
     color: #DCDCDD;
+}
+
+#polygon {
+    width: inherit;
+    height: 100vh;
+    position: fixed-top;
+    top: 50px;
+    z-index: 0;
+    background-image: url("images/axiom-pattern.png");
+    clip-path: polygon(0 0%, 100% 100%, 100% 100%, 0 100%);
 }
