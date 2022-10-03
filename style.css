@@ -11,6 +11,14 @@
     background-color: #46494C;
 }
 
+#v-pills-tab > a {
+    color: #DCDCDD;
+}
+
+#v-pills-tab > a.active {
+    background-color: #B75D69;
+}
+
 #navbar-scrollspy {
     background-color: #46494C;
 }
